@@ -3,6 +3,7 @@
 #include "SelectSort.cpp"
 #include "MergeSort.cpp"
 #include "QuickSort.cpp"
+#include "HeapSort.cpp"
 #include <vector>
 #include <cstdlib>
 #include <ctime>
@@ -33,7 +34,8 @@ int main()
     // BubbleSort(array);
     // SelectSort(array);
     // MergeSort(array, 0, array.size() - 1);
-    QuickSort(array, 0, array.size() - 1);
+    // QuickSort(array, 0, array.size() - 1);
+    HeapSort(array);
     show(array);
     return 0;
 }
