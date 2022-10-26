@@ -41,3 +41,8 @@ void HeapSort(vector<int> &x)
     }
     for(int i = 0; i < x.size(); ++i) x[i] = array[i + 1];
 }
+
+
+void cmp(...) {
+    
+}
